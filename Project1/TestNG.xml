@@ -3,49 +3,49 @@
 <suite name="Suite">
 	<test name="Test1">
 		<classes>
-			<class name="testcases.CreateanAccount" />
+			<class name="testcases.TestCasesForCreateanAccount" />
 		</classes>
 	</test>
 
 	<test name="Test2">
 		<classes>
-			<class name="testcases.SignIn" />
+			<class name="testcases.TestCasesForSignIn" />
 		</classes>
 	</test>
 	
 	<test name="Test3">
 		<classes>
-			<class name="testcases.HomePage" />
+			<class name="testcases.TestCasesForHomePage" />
 		</classes>
 	</test>
 	
 	<test name="Test4">
 		<classes>
-			<class name="testcases.SearchBar" />
+			<class name="testcases.TestCasesForSearchBar" />
 		</classes>
 	</test>
 	
 	<test name="Test5">
 		<classes>
-			<class name="testcases.NavigationBar" />
+			<class name="testcases.TestCasesForNavigationBar" />
 		</classes>
 	</test>
 	
 	<test name="Test7">
 		<classes>
-			<class name="testcases.Product" />
+			<class name="testcases.TestCasesForProduct" />
 		</classes>
 	</test>
 	
 	<test name="Test8">
 		<classes>
-			<class name="testcases.ShoppingCart" />
+			<class name="testcases.TestCasesForShoppingCart" />
 		</classes>
 	</test>
 	
 	<test name="Test9">
 		<classes>
-			<class name="testcases.ProceedToCheckout" />
+			<class name="testcases.TestCasesForProceedToCheckout" />
 		</classes>
 	</test>
 	

@@ -14,7 +14,7 @@ import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
-public class Product {
+public class TestCasesForProduct {
 
 	WebDriver driver;
 

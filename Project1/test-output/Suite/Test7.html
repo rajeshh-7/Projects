@@ -57,9 +57,9 @@ function toggleAllBoxes() {
 <tr>
 <td>Tests passed/Failed/Skipped:</td><td>5/0/0</td>
 </tr><tr>
-<td>Started on:</td><td>Tue Apr 30 11:39:20 IST 2024</td>
+<td>Started on:</td><td>Thu May 09 12:19:14 IST 2024</td>
 </tr>
-<tr><td>Total time:</td><td>57 seconds (57133 ms)</td>
+<tr><td>Total time:</td><td>58 seconds (58893 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -67,6 +67,84 @@ function toggleAllBoxes() {
 </tr>
 </table><p/>
 <small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='testcases.TestCasesForNavigationBar.testcase3()'><b>testcase3</b><br>Test class: testcases.TestCasesForNavigationBar</td>
+<td><div><pre>org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=124.0.6367.119)
+Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;
+System info: host: &apos;DESKTOP-VD0E2CP&apos;, ip: &apos;192.168.0.103&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 124.0.6367.119, chrome: {chromedriverVersion: 123.0.6312.58 (6b4b19e9dfbb..., userDataDir: C:\Users\rajes\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63468}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 5b982ce141132666ea16d4e5681873ce
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:276)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:83)
+	at pages.NavigationBar.clickOnShorts2(NavigationBar.java:142)
+	at testcases.TestCasesForNavigationBar.testcase3(TestCasesForNavigationBar.java:310)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 28 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1058984040", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1058984040'><pre>org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=124.0.6367.119)
+Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;
+System info: host: &apos;DESKTOP-VD0E2CP&apos;, ip: &apos;192.168.0.103&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 124.0.6367.119, chrome: {chromedriverVersion: 123.0.6312.58 (6b4b19e9dfbb..., userDataDir: C:\Users\rajes\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63468}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 5b982ce141132666ea16d4e5681873ce
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:276)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:83)
+	at pages.NavigationBar.clickOnShorts2(NavigationBar.java:142)
+	at testcases.TestCasesForNavigationBar.testcase3(TestCasesForNavigationBar.java:310)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:766)
+	at org.testng.TestRunner.run(TestRunner.java:587)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+	at org.testng.TestNG.runSuites(TestNG.java:1039)
+	at org.testng.TestNG.run(TestNG.java:1007)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>57</td>
+<td>testcases.TestCasesForNavigationBar@6d763516</td></tr>
+</table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
 <tr><td><b>Test method</b></td>
@@ -75,105 +153,100 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='testcases.CreateanAccount.testCase1()'><b>testCase1</b><br>Test class: testcases.CreateanAccount</td>
+<td title='testcases.TestCasesForCreateanAccount.testcase1()'><b>testcase1</b><br>Test class: testcases.TestCasesForCreateanAccount</td>
 <td></td>
 <td>7</td>
-<td>testcases.CreateanAccount@192d43ce</td></tr>
+<td>testcases.TestCasesForCreateanAccount@192d43ce</td></tr>
 <tr>
-<td title='testcases.SignIn.testcase1()'><b>testcase1</b><br>Test class: testcases.SignIn</td>
-<td></td>
-<td>14</td>
-<td>testcases.SignIn@4466af20</td></tr>
-<tr>
-<td title='testcases.HomePage.testcase1()'><b>testcase1</b><br>Test class: testcases.HomePage</td>
-<td></td>
-<td>43</td>
-<td>testcases.HomePage@4a94ee4</td></tr>
-<tr>
-<td title='testcases.SearchBar.testcase1()'><b>testcase1</b><br>Test class: testcases.SearchBar</td>
-<td></td>
-<td>0</td>
-<td>testcases.SearchBar@59309333</td></tr>
-<tr>
-<td title='testcases.NavigationBar.testcase1()'><b>testcase1</b><br>Test class: testcases.NavigationBar</td>
-<td></td>
-<td>28</td>
-<td>testcases.NavigationBar@52bf72b5</td></tr>
-<tr>
-<td title='testcases.Product.testcase1()'><b>testcase1</b><br>Test class: testcases.Product</td>
-<td></td>
-<td>5</td>
-<td>testcases.Product@5c5eefef</td></tr>
-<tr>
-<td title='testcases.SignIn.testcase2()'><b>testcase2</b><br>Test class: testcases.SignIn</td>
-<td></td>
-<td>5</td>
-<td>testcases.SignIn@4466af20</td></tr>
-<tr>
-<td title='testcases.SearchBar.testcase2()'><b>testcase2</b><br>Test class: testcases.SearchBar</td>
-<td></td>
-<td>4</td>
-<td>testcases.SearchBar@59309333</td></tr>
-<tr>
-<td title='testcases.NavigationBar.testcase2()'><b>testcase2</b><br>Test class: testcases.NavigationBar</td>
-<td></td>
-<td>31</td>
-<td>testcases.NavigationBar@52bf72b5</td></tr>
-<tr>
-<td title='testcases.Product.testcase2()'><b>testcase2</b><br>Test class: testcases.Product</td>
-<td></td>
-<td>12</td>
-<td>testcases.Product@5c5eefef</td></tr>
-<tr>
-<td title='testcases.SignIn.testcase3()'><b>testcase3</b><br>Test class: testcases.SignIn</td>
+<td title='testcases.TestCasesForSignIn.testcase1()'><b>testcase1</b><br>Test class: testcases.TestCasesForSignIn</td>
 <td></td>
 <td>9</td>
-<td>testcases.SignIn@4466af20</td></tr>
+<td>testcases.TestCasesForSignIn@4f6ee6e4</td></tr>
 <tr>
-<td title='testcases.SearchBar.testcase3()'><b>testcase3</b><br>Test class: testcases.SearchBar</td>
+<td title='testcases.TestCasesForHomePage.testcase1()'><b>testcase1</b><br>Test class: testcases.TestCasesForHomePage</td>
 <td></td>
-<td>2</td>
-<td>testcases.SearchBar@59309333</td></tr>
+<td>53</td>
+<td>testcases.TestCasesForHomePage@7b9a4292</td></tr>
 <tr>
-<td title='testcases.NavigationBar.testcase3()'><b>testcase3</b><br>Test class: testcases.NavigationBar</td>
-<td></td>
-<td>62</td>
-<td>testcases.NavigationBar@52bf72b5</td></tr>
-<tr>
-<td title='testcases.Product.testcase3()'><b>testcase3</b><br>Test class: testcases.Product</td>
-<td></td>
-<td>16</td>
-<td>testcases.Product@5c5eefef</td></tr>
-<tr>
-<td title='testcases.SignIn.testcase4()'><b>testcase4</b><br>Test class: testcases.SignIn</td>
-<td></td>
-<td>8</td>
-<td>testcases.SignIn@4466af20</td></tr>
-<tr>
-<td title='testcases.Product.testcase4()'><b>testcase4</b><br>Test class: testcases.Product</td>
+<td title='testcases.TestCasesForSearchBar.testcase1()'><b>testcase1</b><br>Test class: testcases.TestCasesForSearchBar</td>
 <td></td>
 <td>0</td>
-<td>testcases.Product@5c5eefef</td></tr>
+<td>testcases.TestCasesForSearchBar@1aa7ecca</td></tr>
 <tr>
-<td title='testcases.SignIn.testcase5()'><b>testcase5</b><br>Test class: testcases.SignIn</td>
+<td title='testcases.TestCasesForNavigationBar.testcase1()'><b>testcase1</b><br>Test class: testcases.TestCasesForNavigationBar</td>
 <td></td>
-<td>6</td>
-<td>testcases.SignIn@4466af20</td></tr>
+<td>30</td>
+<td>testcases.TestCasesForNavigationBar@6d763516</td></tr>
 <tr>
-<td title='testcases.Product.testcase5()'><b>testcase5</b><br>Test class: testcases.Product</td>
+<td title='testcases.TestCasesForProduct.testcase1()'><b>testcase1</b><br>Test class: testcases.TestCasesForProduct</td>
+<td></td>
+<td>5</td>
+<td>testcases.TestCasesForProduct@222545dc</td></tr>
+<tr>
+<td title='testcases.TestCasesForSignIn.testcase2()'><b>testcase2</b><br>Test class: testcases.TestCasesForSignIn</td>
+<td></td>
+<td>7</td>
+<td>testcases.TestCasesForSignIn@4f6ee6e4</td></tr>
+<tr>
+<td title='testcases.TestCasesForSearchBar.testcase2()'><b>testcase2</b><br>Test class: testcases.TestCasesForSearchBar</td>
+<td></td>
+<td>7</td>
+<td>testcases.TestCasesForSearchBar@1aa7ecca</td></tr>
+<tr>
+<td title='testcases.TestCasesForNavigationBar.testcase2()'><b>testcase2</b><br>Test class: testcases.TestCasesForNavigationBar</td>
+<td></td>
+<td>38</td>
+<td>testcases.TestCasesForNavigationBar@6d763516</td></tr>
+<tr>
+<td title='testcases.TestCasesForProduct.testcase2()'><b>testcase2</b><br>Test class: testcases.TestCasesForProduct</td>
+<td></td>
+<td>13</td>
+<td>testcases.TestCasesForProduct@222545dc</td></tr>
+<tr>
+<td title='testcases.TestCasesForSignIn.testcase3()'><b>testcase3</b><br>Test class: testcases.TestCasesForSignIn</td>
+<td></td>
+<td>7</td>
+<td>testcases.TestCasesForSignIn@4f6ee6e4</td></tr>
+<tr>
+<td title='testcases.TestCasesForSearchBar.testcase3()'><b>testcase3</b><br>Test class: testcases.TestCasesForSearchBar</td>
 <td></td>
 <td>2</td>
-<td>testcases.Product@5c5eefef</td></tr>
+<td>testcases.TestCasesForSearchBar@1aa7ecca</td></tr>
 <tr>
-<td title='testcases.SignIn.testcase6()'><b>testcase6</b><br>Test class: testcases.SignIn</td>
+<td title='testcases.TestCasesForProduct.testcase3()'><b>testcase3</b><br>Test class: testcases.TestCasesForProduct</td>
 <td></td>
-<td>2</td>
-<td>testcases.SignIn@4466af20</td></tr>
+<td>20</td>
+<td>testcases.TestCasesForProduct@222545dc</td></tr>
 <tr>
-<td title='testcases.SignIn.testcase7()'><b>testcase7</b><br>Test class: testcases.SignIn</td>
+<td title='testcases.TestCasesForSignIn.testcase4()'><b>testcase4</b><br>Test class: testcases.TestCasesForSignIn</td>
 <td></td>
 <td>8</td>
-<td>testcases.SignIn@4466af20</td></tr>
+<td>testcases.TestCasesForSignIn@4f6ee6e4</td></tr>
+<tr>
+<td title='testcases.TestCasesForProduct.testcase4()'><b>testcase4</b><br>Test class: testcases.TestCasesForProduct</td>
+<td></td>
+<td>0</td>
+<td>testcases.TestCasesForProduct@222545dc</td></tr>
+<tr>
+<td title='testcases.TestCasesForSignIn.testcase5()'><b>testcase5</b><br>Test class: testcases.TestCasesForSignIn</td>
+<td></td>
+<td>5</td>
+<td>testcases.TestCasesForSignIn@4f6ee6e4</td></tr>
+<tr>
+<td title='testcases.TestCasesForProduct.testcase5()'><b>testcase5</b><br>Test class: testcases.TestCasesForProduct</td>
+<td></td>
+<td>3</td>
+<td>testcases.TestCasesForProduct@222545dc</td></tr>
+<tr>
+<td title='testcases.TestCasesForSignIn.testcase6()'><b>testcase6</b><br>Test class: testcases.TestCasesForSignIn</td>
+<td></td>
+<td>2</td>
+<td>testcases.TestCasesForSignIn@4f6ee6e4</td></tr>
+<tr>
+<td title='testcases.TestCasesForSignIn.testcase7()'><b>testcase7</b><br>Test class: testcases.TestCasesForSignIn</td>
+<td></td>
+<td>8</td>
+<td>testcases.TestCasesForSignIn@4f6ee6e4</td></tr>
 </table><p>
 </body>
 </html>
